@@ -1,4 +1,17 @@
-.description::first-letter{
-    font-size: 24px;
-    color: rgb(221, 24, 83);
+.menu-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    background: #212121;
 }
+.menu-link:hover,
+.menu-link:focus{
+    }
+
+    
+
+
