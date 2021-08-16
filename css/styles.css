@@ -1,0 +1,10 @@
+  
+
+
+.btn{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: tomato;
+    color: thistle;
+    text-decoration: none;
+}
