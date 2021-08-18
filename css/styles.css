@@ -16,10 +16,7 @@ body{
     background-color:#FFFFFF;
     color: var(primary-text-color);
     font-family: Roboto, sans-serif;
-    margin:0 ;
 }
-
-
 .list{
     list-style: none;   
 }
@@ -27,18 +24,9 @@ body{
     text-decoration: none; 
 }
 /* header  */
-*,
-*::before
-*::after{
-    box-sizing: border-box;
-}
 
- .container{
-     margin-left: auto;
-     margin-right: auto;
-     width: 900px;
-     outline: 2px solid tomato;
- }  
+
+   
 
 .header-item{
     font-family: Raleway;
@@ -93,12 +81,9 @@ body{
     .header-contacs .link:hover,
     .header-contacs .link:focus{
    color: var( --accent-color);
-    
-}
-/* page-header */
-.page-header{
-    background-color: turquoise;
-}
+     
+   
+    }
     /* PORTFOLIO */
     
     
