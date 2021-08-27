@@ -19,7 +19,7 @@ body{
     
 }
 
-.link{
+a{
     text-decoration: none; 
 }
 li{
@@ -56,13 +56,12 @@ ul{
   } 
 
 
-/* header  */
+ .header{
+   border-bottom: 1px solid #000;
+ }  
  
 
-   .header{
-     margin-bottom: 6px;
-    
-   }
+ 
 
   .container{ 
    
@@ -127,13 +126,13 @@ margin-right: 93px;
             padding-bottom: 32px;
             
             }
-           .header-link{
+           .current{
              caret-color:var(--accent-color) ;
            }
-            .header-list .link{
+            .header-link{
             font-weight: 500;
             font-size: 14px;
-            line-height: 1,14;
+            line-height: 1.14;
             letter-spacing: 0.02em;
             color: var(--title-text-color);
                 
@@ -158,8 +157,9 @@ margin-right: 93px;
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.02em;
-       
-        color: var(--secondary-color);   
+       color: var(--secondary-color);
+       padding-top: 32px;
+       padding-bottom: 32px;
     }
     .header-contacs .link:hover,
     .header-contacs .link:focus{
@@ -172,11 +172,11 @@ margin-right: 93px;
 
 
 
-.mail-link,
+/* .mail-link,
 .tel-link{
     padding-top: 32px;
     padding-bottom: 32px;    
-}
+} */
     /* PORTFOLIO */
     
     
@@ -302,8 +302,8 @@ margin-right: 93px;
         
         .footer{ 
             background-color: #2F303A;
-            margin-top: 60px;
-            margin-bottom: 60px;  
+            padding-top: 60px;
+            padding-bottom: 60px;  
           }
          
          
@@ -341,9 +341,10 @@ margin-right: 93px;
             line-height: 1.17; 
             font-style: normal;  
         }
-        .footer-item{
-          padding-bottom: 9px;
+        .footer-item:not(:last-child){
+          margin-bottom: 9px;
         }
+        .footer-item:n
         .footer-link:hover,
         .footer-link:focus{
         color: var(--accent-color);
@@ -453,6 +454,7 @@ margin-right: 93px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-bottom: 10px;
         }
        .feature-item{
        width:270px ;
@@ -469,7 +471,9 @@ margin-right: 93px;
        }
        
         /* WORKS */
-      
+            .works-section{
+              padding-top: 0;
+            }
             .works-title{
             
             margin-bottom: 50px; 
@@ -543,6 +547,7 @@ margin-right: 93px;
          margin-top: 10px;
          }
         .card-thumb{
+          align-items:center;
           padding-top: 30px;
           padding-bottom: 30px;
           background-color: #F5F4FA;
