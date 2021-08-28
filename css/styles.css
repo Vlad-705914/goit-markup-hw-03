@@ -181,7 +181,13 @@ margin-right: 93px;
     
     
       .filter-list{
-       margin-bottom: 50px;
+       
+        
+      
+      
+        
+        
+        margin-bottom: 50px;
         justify-content: center; 
         display: flex;
         color:var(title-text-color); 
@@ -192,63 +198,26 @@ margin-right: 93px;
          }
        
          
-        .filter-button1{
+        .filter-button{
+         
+          
+          
           font-size: 16px;
           font-weight: 500;
           line-height: 1.62;
           letter-spacing: 0.03em;
            min-width: 73px;
-           padding: 10px;
+           padding: 6px 22px 6px 22px;
            border-radius: 4px;
            border:1px solid #EEEEEE;
             
     }
-         .filter-button2{
-          font-size: 16px;
-          font-weight: 500;
-          line-height: 1.62;
-          letter-spacing: 0.03em;
         
-          
-          padding: 10px;
-            min-width: 128px;
-           
-            border-radius: 4px;
-            border:1px solid #EEEEEE;
-         }
-         .filter-button3{
-          font-size: 16px;
-          font-weight: 500;
-          line-height: 1.62;
-          letter-spacing: 0.03em;
-          padding: 10px;
-          min-width: 145px;
-          border-radius: 4px;
-          border:1px solid #EEEEEE;
-         }
-         .filter-button4{
-          font-size: 16px;
-          font-weight: 500;
-          line-height: 1.62;
-          letter-spacing: 0.03em;
-          padding: 10px;
-          min-width: 103px;
-          border-radius: 4px;
-          border:1px solid #EEEEEE;
-         }
-         .filter-button5{
-          font-size: 16px;
-          font-weight: 500;
-          line-height: 1.62;
-          letter-spacing: 0.03em;
-          padding: 10px;
-          min-width: 130px;
-           border-radius: 4px;
-           border:1px solid #EEEEEE;
-         }
+         
+       
         
         .filter-button{
-            cursor:pointer
+          cursor:pointer
          }
        
        .filter-button:hover,
@@ -400,6 +369,7 @@ margin-right: 93px;
        } 
        .hero-button:hover,   
        .hero-button:focus{
+        color: var(--primary-white-color);
         background-color: var(--accent-color);
        }
        .hero-button{
